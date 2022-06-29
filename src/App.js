@@ -1,9 +1,10 @@
+import Titulo from "./components/ui/TItulo";
 
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello ReactJS</h1>   
+      <Titulo titulo="Hello ReactJS" aligin="center"/>
     </div>
   );
 }
