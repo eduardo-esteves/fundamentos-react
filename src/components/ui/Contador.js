@@ -1,5 +1,7 @@
 import React from "react";
 
+import Scroll from "./Scroll";
+
 
 const Contador = () => {
 
@@ -15,6 +17,7 @@ const Contador = () => {
       <button onClick={handleDecrementContador}> - </button>
       <span> {contador} </span>
       <button onClick={handleIncrementContador}> + </button>
+      <Scroll />
     </>
 
   )
