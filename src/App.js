@@ -1,12 +1,12 @@
 import React from "react"
 
-import Produto from './components/ui/Produto'
+import Comentarios from './components/ui/Comentarios'
 
 const App = () => {
 
   return (
     <div className="App">
-      <Produto />
+      <Comentarios />
     </div>
   );
 }
