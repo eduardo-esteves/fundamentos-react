@@ -1,12 +1,12 @@
-import Titulo from "./components/ui/TItulo"
-import Contador from "./components/ui/Contador"
+import React from "react"
 
+import Produto from './components/ui/Produto'
 
 const App = () => {
+
   return (
     <div className="App">
-      <Titulo titulo="Hello ReactJS" aligin="center"/>
-      <Contador />
+      <Produto />
     </div>
   );
 }
