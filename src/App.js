@@ -1,12 +1,12 @@
 import React from "react"
 
-import Comentarios from './components/ui/Comentarios'
+import UseMemo from './components/UseMemo'
 
 const App = () => {
 
   return (
     <div className="App">
-      <Comentarios />
+      <UseMemo />
     </div>
   );
 }
