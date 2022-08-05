@@ -1,13 +1,16 @@
 import React from "react"
 
-import UseMemo from './components/UseMemo'
+import UserContext from './contexts/UserContext'
+import { pessoas } from './PESSOAS'
+import ListUsuarios from './components/ui/ListUsuarios'
 
 const App = () => {
-
   return (
-    <div className="App">
-      <UseMemo />
-    </div>
+    <UserContext.Provider value={pessoas}>
+      <div className="App">
+        <ListUsuarios />
+      </div>
+    </UserContext.Provider>
   );
 }
 
